@@ -1,12 +1,6 @@
 """Главный файл приложения — точка входа"""
 import os
 
-
-os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
-os.environ['HF_HOME'] = 'D:/huggingface_cache'
-os.environ['HF_DATASETS_CACHE'] = 'D:/huggingface_cache/datasets'
-os.environ['TRANSFORMERS_CACHE'] = 'D:/huggingface_cache/transformers'
-
 from config import config
 
 import asyncio
